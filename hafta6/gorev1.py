@@ -10,13 +10,19 @@
 # -Uçuş başarılıysa yakıtı 5 azalt.
 # -Kalan yakıtı ekrana yazdır.
 
-# if kosul:
-#     kosul doğruysa çalışacak kod
-#     if kosul:
-#         ana if doğruysa burdaki if sorgulanır ve bu da doğruysa burdaki kod çalışır
-#     else:
-#         lll
-# else: 
-#     koşul yanlışsa çalışacak kod
+yakit = 15
 
-# or veya and ve
+print("=== UZAY GEMİSİ ===")
+
+secim = input("Uçuş yapılsın mı? (e/h): ")
+
+if secim == "e":
+    if yakit >= 5:
+        yakit -= 5
+        print("Uçuş başarılı!")
+    else:
+        print("Yetersiz Yakıt!")
+else:
+    print("Uçuş Modu İptal Edildi!")
+
+print("Kalan Yakıt:",yakit)
