@@ -3,9 +3,9 @@
 # while koşul: (KOŞUL DOĞRU OLDUĞU SÜRECE KODLARIM ÇALIŞIR)
     # koşul doğruysa çalışacak kodum
 
-ucus = 0
-while ucus < 3:
-    print("Uçuş Yaptırıldı")
+ucus = 1
+while 0 < 3:
+    print("Uçuş Yaptırıldı", ucus)
     ucus += 1
 
 print("Görev Tamamlandı!")

@@ -18,7 +18,7 @@ secim = input("Uçuş yapılsın mı? (e/h): ")
 
 if secim == "e":
     if yakit >= 5:
-        yakit -= 5
+        yakit -= 5 # yakit = yakit - 5
         print("Uçuş başarılı!")
     else:
         print("Yetersiz Yakıt!")
